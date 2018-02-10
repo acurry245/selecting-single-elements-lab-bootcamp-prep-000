@@ -26,8 +26,8 @@ Go ahead and select the JavaScript tab and you'll see some JavaScript code
 //Enter querySelector Code here
 var header = "Sea Horses
 "
-var linkText = "ENTER LINK TEXT CODE HERE"
-var linkHref = "ENTER LINK HREF CODE HERE"
+var linkText = "wikipedia"
+var linkHref = "email"
 
 
 // NO NEED TO MODIFY BELOW HERE
@@ -59,7 +59,9 @@ The first link href is: ENTER LINK HREF CODE HERE
 This is outputted by the `console.log` lines in the CodePen. The CodePen is outputting text to our Browser Console. Here is the code in the JavaScript tab of the CodePen that outputs to the Browser Console.
 
 ```
-console.log(`The header is: ${header}`)
+console.log(`The header is: ${| Header One     | Header Two     |
+| :------------- | :------------- |
+| Item One       | Item Two       |}`)
 console.log(`The first link text is: ${linkText}`)
 console.log(`The first link href is: ${linkHref}`)
 ```
